@@ -20,4 +20,19 @@ Dev:
 
 agent: 1040, customer: 862
 
+### Amazon QA:
+
+Data source and statistics please refer to this [link](http://jmcauley.ucsd.edu/data/amazon/qa/)
+
+### Movie dialogue:
+
+Data source: [link](https://research.google/tools/datasets/coached-conversational-preference-elicitation/)
+
+Statistics:
+
+assistant: 5195 utterances
+
+user: 4900 utterances
+
+
 
