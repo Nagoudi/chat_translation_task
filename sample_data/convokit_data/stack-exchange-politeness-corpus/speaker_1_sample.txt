@@ -1,0 +1,105 @@
+Can you explain more in detail, what should I sddelat? Allocate a job? How?
+how are you resolving function pointers? I am also writing similar kind of program but still wondering how i will resolve function pointers?
+Is `A` a global variable?  What is x?
+Why not using `isnan()` from math.h? Any specially reason?
+do you want to send the 32bit number in binary form? or in ascii?
+What have you tried? Where are you finding a problem?
+"Cant see the error" ? You mean your compiler crashes as badly on this code that you even can't tell us what he is complaining about?
+When I run the code I am able to select store and that validation is good, however when I enter in a purchase amount I get invalid message and am still able to enter in the negative values. Not sure if there is an issue with my while statement?
+Delimiters corresponding to what?  What are you trying to do?
+Too vague - explain what you expect the contents of the array to be afterwards - give a concrete example. Possibly also needs a homework tag ?
+@omri yes you are right... I have applied the logic acc. to what I thought is right if somebody could tell me what's wrong I have done ?????
+What if I want to have another while loop within the main and split the record even further? I've noticed that then the first loop doesn't loop beyond just the first iteration, why?
+You could have forgotten an include that defined a type, forgotten a smicolon, lots  of things. Can you paste the code 10 lines before and after the location that the error indicates?
+I'm always amazed at how many questions are similar to this. Are people itching to write code like this?
+Good question, worded poorly. Might want to try rephrasing it?
+By literal value, do you mean the string? Or the ascii integer value?
+Why is your code stored in a `.cpp` (C++) file, while the question is about C? So, what is it C++ or C?
+Explain what you mean by non-smaller? You mean bigger?
+Actually it's probably a structure. I bet you declared `struct mystruct { int something; }` and then tried `struct mystruct myobj` followed by a `myobj->something` when you meant `myobj.something`, right?
+I haven't ever experience `GetClientRect` returning anything but the full client rectangle, no matter what overlaps it or if it is fully on-screen.  Are you sure?
+Are you saying this doesn't compile elsewhere? Ie this is xcode specific?
+do you mean assembly code?  and you want a self modifying application?
+Is the asterisk really an asterisk in the source code? Or just a wildcard?
+Can you compile for 64 bits? If not, can you tell the compiler that your EXE supports up to 4GB?
+Wow! Trivial answer converted to comment! Is this new?
+yea, that code was crufty.. see the latest edit. it is still crashing when accessing the new array..perhaps the \0 characters are getting lost in the shuffle?
+why not `fprintf`? is this a homework?
+You don't have any call to `fork()` in your sample program. Is this intentional?
+I think he is talking about the variable length arrays that were added to C in the C99 revision of the language. Is that correct aaa?
+two programs (processes) and two threads are completely different sets of beasts. which do you mean?
+When the breakpoint 'activates' is the `struct frame` in scope? Do you have more variables named `Frame`, possibly static to another translation unit or local to some function ... ?
+@Francesco: Why are you so against sharing the errors that you are seeing. Why don't you get that they are helpful?
+Are you running in user mode or kernel mode?  Direct manipulation of the IDT is definitely not supported under Windows - what are you trying to do?
+Why doesn't it compile?  What errors are you getting?
+Is this homework?  If so, could you please tag it as such?
+Seems like a roundabout way to get an address structure to me. Why not just pass "2a00:1450:8006::68" to `getaddrinfo`?
+Sorry, the question was not 'Is this correct, or what is correct?' it was 'Why does this work?'
+More likely than not it has to do with the way visual studio optimizes the loops. Can you post the generated assembly?
+When you say "`buf` is a string", do you mean it's already a `char*`? And you're casting its address to type `const char*`?
+@aroth: Ouch. Don't you ever need to view side-by-side diffs?
+By "implementing square", do you mean implementing a function such that `f(x) = x^2`, or `f(x) = x`? Also, what is the precise list of operators you are not allowed to use?
+If the struct is redefined, then everything that uses it's definition needs to be recompiled.  Is there a rebuild of all modues that know about the struct?
+I've clarified the question, thanks ax. @runrunraygun: What is a community wiki?
+What about a function like safe_free(void* ptr) { free(ptr); ptr = NULL; } or something like that?  Or what about some kind of struct wrapper and functions to manipulate it?
+I know little about compilers. Isn't cygwin just a compiler?
+Your code will result in 0.5. So what's your problem?
+Implicit `int`? Two returns in one method?
+What is `a`? Is there a value or just 0?
+This looks right, and works for me. What do you see?
+What do you mean by 'access'?  Do you want to just read or also be able to write to the cell?
+Please clarify. You need to pass a data scructure from C to Lua?
+it might depend on the actual definition of BYTE.
+Maybe `TRUE` and `FALSE` are already defined, so your `#ifdef`-ed code is actually never executed?
+What do you mean by "character"? The drive letter?
+Then you obviously have problem with your fwrite call. Could you provide the code you use?
+@sarnold It shows 
+Number of input = 22936722 49.Can anyone rationalise this strangeness?
+How are `g_rx_buffer` and `BYTE` defined?  What compiler are you using?
+It looks like you're not null terminating your `argv` array.  Or is that just left out of your example?
+What OS? Can you establish a link local IP address?
+Show more declarations, what is the type of the curr_time2 variable? How is the get_time_in_seconds() function declared?
+How are you doing your shared memory? With shm_open and mmap?
+Who gives you such error? Did you compile your source using `proc` ?
+@tomkaith, are you getting an error-code number from the call? Or just the numberless error msg?
+What plataform are you working on?
+Which packet capture libraries are you using?
+How does an object type change dynamically?  Do you have a vehicle base blass and two derived classes: car and bike?
+A gaussian is unbounded. Am I missing something?
+Nope, no sense. What's a conceptual break in this context?
+What sort of non-Oracle database ? Is it running on the same machine or over a network ?
+*lol* the war against crackers is stopping our white-hats to learn the trade. Maybe the criminals will go away when we don't know how they do it? ;)
+And what is the problem? Other than the missing semicolon after name[25]?
+As an additional data point, I'd recommend verifying the COM port is actually accessible by a simple terminal application like HyperTerminal. Is it?
+The second example in your second question accesses unallocated memory. Was that on purpose?
+Yes, it certainly could be. But why thre read() does not realize immediately there's nothong to read, but waits for 1/2 seconds?
+Do you want to check if it looks ok ? Do you want to check if the file exists ?
+What kind of data are you expecting? Another float or printed output?
+@Laurence Gonsalves:  Oh?  What, then, is the ubiquitous _C string_ if it is not a string?
+but what happen if a process try to read but another process is still reading before ?
+ is the pipe closed for reading when a process read from there ?
+What do you mean? How a compiler would implement them, or how to use them?
+@dmckee - I wasn't aware that a closed question could be edited. Will an edited closed question generally get reconsideration?
+Have you tried any other applications that use libsvga? Also, "EGA driver" sounds a bit suspicious, have you tried using other modes than 'default'?
+So how exactly do you figure out, at runtime, how to call the function that you've stored in this function pointer? In particular, how are you supposed to know how many arguments to pass it?
+To answer your last question, you want to use `extern "C"` to prevent the name-mangling. Not sure about the first one yet though; have you verified that you're actually being sent any messages?
+Yes, that is the real source code. And the compilation has been performed without optimization, perhaps that is the reason?
+Where is the question? What did you do, and what error did you get?
+What is the socket's protocol type? TCP, UDP, something else?
+How do you get a runtime error, if you got a compile time error? What did you change to get it to compile?
+What are you writing your complier in? C? You are using LLVM for machine code compilation then?
+@Mr.32: That depends. How does that 64-bit platform implement fseek?
+Which operating system? (Sounds like some flavor of Linux?)
+Although I've always used what I guess you could call an "object based" style of C programming, it is much, much easier to to this (and just about everything else) in C++.  I have to ask why you don't seem to want to use it?
+@Jamie, please explain your intention in a few words. Is it your intention to create a buffer overflow exploit?
+Presumably because the compiler decides to pass arguments in registers, or because the stack still contains the required first argument. Does it _not_ work?
+Have you considered using bitwise operators instead of floating-point math routines? You do realize that floating-point is subject to rounding errors, which might explain why you're getting 99 instead of 100?
+I guess it never makes it to the second 2, nor the next two 1's? After evaluation of the first if statement to true it just prints the largest integer is two and exits?
+What's the declaration for v1 and v2? Are they of the correct type for %f?
+I'm a bit unsure what you're asking here. Would you like Stack Overflow to do a code review of your code for you?
+What have you tried? Where exactly are you stuck?
+Welcome to Stack Overflow!  Can you be a bit more specific about what you've tried before, what problems you've run into, and what we can help you with?
+Where is labelHashTable declared?  Is it a file-scope (global) variable?
+@NTDLS connect() might be hanging, I'm not sure how to tell. How would I know if it's a firewall issue?
+There are a lot of ways to ensure thread safety without using a threading API. What operating systems and cpu architectures are you planning on supporting?
+Annotations aren't executable code, so this is unlikely. What are you really trying to do - in what conditions would you want a test to be run or not run?

@@ -1,0 +1,108 @@
+Will expressions always be unambiguously parenthesized like that, so you don't have to deal with precedence? Or is `X OR Y AND Z` allowed?
+What is the definition of `buffer`? Is it a local variable?
+This is a very confusing question!  How are you compiling your C programs?
+@Foon I just know that to compile in Linux I do gcc or g++ and in Solaris I do cc. Or am I wrong about it?
+Does your project involve some graphical user interface? What do you want to code?
+Usually compilers should generate a good code for such algorithms. Did you check what assembly a C compiler is generating?
+You want to compress strings from argv, really?  Or do you mean you want to treat argv's elements as names of files to compress, like gzip the program does?
+@cHao Actually, i tried using select, but couldn't make it work. Can you give an example?
+BTW you typo'd the declaration of `bytes_read`. And what on earth is "incertitude"?
+This isn't the solution BUT,
+You can't assign values to a NULL pointer as you do in the start of tree_add IF the tree pointer is NULL, also you do not return any pointer from the function even though you specified that the tree_add function should return something?
+Please specify the platform you are compiling on, and also specify the command line options to the compiler that you're using.  Is `-std=c99` one of the options, for example?
+What platform? VisualC(++)/gcc/ANSI C?
+The nth letter? Is this the Roman version of the Fibonacci sequence?
+Maybe the "junk" servers a purpose to the application? What if you SETTEXT without the junk?
+no way! can you show us the entire loop?
+Generally, I'd anticipate a code bug. Can you paste in your FD_SET and your select calls please?
+I added commentary. Does that explain what happens now?
+Yes the second for loop has no braces as it contains a single statement within it.
+
+Is the time complexity of the above O(n^1.5) ?
+@g0d1anier: I'm just curious, is there a reason you want to use multithreading for this? It seems to me that your program will be completely I/O bound so you're adding a lot of complexity for little benefit?
+Are you trying to write a standalone program to invert matrices or write a `transpose` function as part of a bigger program?  If it's a standalone program, how is your program supposed to get its input and output?
+Can someone include `getpid()` in the picture?
+`getpid()` in child returns 0?
+How do you compare strings? strcmp()?
+"remove all 0's and 1's". So if your int is 2107900000 you want to get 279?
+@Praetorian: You had me into tears. I agree to you but is that going to help me with my question?
+I don't understand what's wrong with the standard C pre-processor. Can you clarify?
+what type is curr_time2? What data type does get_time_in_seconds() return?
+i can input number, number1. skips to letter2 why?
+Pipes are IPC tools. Where's your other process?
+how much have you studied yet? Do you want specific questions?
+Can we see the function that creates the output? And the output itself?
+Doing a redundant `atoi` after you just did `strtol` is probably the most twisted insult to the proper use of string-to-int conversion functions in C one can come up with. Why do you see the need to "re-convert" the value using the broken function `atoi` when you already have it as `val` from a proper function `strtol`?
+Let's talk about the error in a little bit more detail, Sergey. What is the output you get and what is the output you expect?
+I don't see any inherent problem with what you have done above, and it looks like no one else sees anything, either; can you post more code?   How certain are you that the setfault happens at that particular waitall?
+Other than a missing declaration of 'ss', the code you've provided will get the address of a member of a structure. Can you provide more detail on what isn't working for you?
+In addition to reformatting, can you try to provide some more info? Where are you stuck, what's going wrong?
+@Thanatos: Interesting, however that statement implies that there are no multibyte string encodings that have embedded null bytes? Is that correct?
+Which call to Print fails?  The first call?
+Why would they be apart *without* optimization? I would imagine that the optimization is that space is allocated for both in advance?
+I'm still confused, unfortunately. Specifically, what could I do if I wanted to read the third line, for example?
+I see. Was it talking about that one specifically? :)
+Is there a particular reason you need it in binary format? Could you not use simple text output?
+The title says 8088 and the tags say 8086. Which one do you need?
+Paws__List is intended to be a _copy_ of List? not a reference or some sort of alias?
+The first (slightly stupid ;) ) question that comes to my mind is, do you really need to run as root? Or just need root access to some other stuff that you could sudo to, or use setuid rights to?
+Why? 99% of the time you can convert well written C code to C++ code by just changing the compiler setting. Why not start using C++ code?
+What exactly have you tested? You tested for the value you expect, I understand?
+It may be redundant in source, but is it redundant in binary? Is it a good practice to always check code like this because although all statements depend on the ones before them (in program flow), the program flow may change from any number of sources?
+do you include libfoo.h in libfoo.cpp? If you do an `nm` on the libfoo.a do you have the c++ name for the foobar() function?
+Why not K&R? Was this just an excuse to bad-mouth some books you didn't like?
+It's a snippet, but mostly of where the action is. Suggestion to fix?
+What is the problem here? Are you getting some unexpected results?
+sorry, wasn't really thinking about a definitive question. could we just say that my question is: is my interpretation valid or does it contain some problems?
+@Nobody: How much slower is that, these days? Do you have any data?
+Sooo, what's the problem? Do you get an error when trying to compile the code?
+Are you working with the Windows command prompt? Or what environment are you trying to display the output in?
+-1: Have you tried stepping through your code in a debugger on a small dataset?  What did you discover?
+Why this particular number anyway? Is that the one related to some recent bug?
+@Jeff OK, OK. This is how wiki works though huh?
+Thanks, will check that out. Is there a advantage/disadvantage using setjmp/longjmp over signals as proposed below?
+Why do you have to use goto for this? And if you want to ensure that both are initialised, isn't it easy enough to move both declarations to the top of the function?
+I don't think there's any "optimal" way to do it other than just scanning the string looking for the delimiters.  Perhaps _you_ could code that yourself?
+@Haoest: It seems some friendly individual already edited the title to remove the "gay image". Have you tried a different threshold?
+@kelton52, then the problem is at compile time rather than run time. There should still be behaviour, error messages from the compiler perhaps?
+@ David Thornley: Become a professional-grade programmer, also want participate in coding contest(Codechef, Topcoders),both have equal priorities
+
+What you suggest what kind of preparation i need to take ?
+I see no question here. What is your question?
+I don't understand what you mean by groups. Are you asking for groups or points?
+"doing math on the file as if it were one long number" sounds like a bad idea!  What method is this?
+while that link is related things aren't quite the same in c++. For one thing isn't reference counting a lot more popular?
+@Norman: I need to wrap lots of legacy API so that I can call it from lua, so a automaic way is a MUST. Do you have any other recommendation?
+@Sandip, what algorithm are you working on? Is it something like memcpy/memmove (or STREAM?).
+Try to phrase the question in language-neutral terms: how would you go about implementing a function that received a X and did Y to it? What is the merit of the FlyWeight pattern and could you sketch an implementation in C?
+What is this code supposed to do? How are you approaching the data locality issues (this in my experience is the most important part of optimization)?
+They are completely different. Have you even glanced at the documentation?
+To quote Scott Meyers: "`make`? Who needs stinkin `make`?".
+Are you using two sockets with the same port?  If so, what is the reason?
+qsort does sort lines in increasing order, but your definition of "increasing" isn't the same as everybody else's.  Why do you think it's more logical to sort strings by length rather than by alphabetical order?
+Depends on your OS. Are you on Linux, Mac, Windows?
+What does "repair the sequence by replacing the repeated numbers" mean? Can you provide an example of the finished product (showing intermediate steps)?
+Doesn't doxygen do exactly this? Or am I mistaken?
+No, it is for a student project (matrix calculation with multiple processes), but for this step I have to use mmap.
+Is there another way to share the variable between all my processes ?
+One has `const`, and the other does not. Is this intended?
+Since you're only trying to detect gnome vs kde, is there a particular set of distros or configurations you're targeting? How general does the solution have to be?
+I don't see how you can deduce the prototype of a C function with `nm`. To have the prototype mangled in, there, you'd have to compile the file as C++ and not as C, no?
+IsPalindrome is a useful function? For whom? ;-)
+@luser droog: I can surely try! where can I look at that source?
+How do you know it's not returning a 64-bit pointer? Have you done `sizeof(void *)` to check?
+Do you wish to optimise the code (make it run faster) or refactor the code (make it easier to read/maintain/modify)? If optimise, what are your timings, and how much do you need to reduce it by?
+Seems okay to me. What is it supposed to output?
+@Kiril yes you can, using function pointers. But even then, how's that different from passing the struct around to functions?
+Why is updating the display immediately an issue? Doesn't that make your application seem slower than it actually is?
+What this statement do is giving you "no hire" on interview and severe pay cut if found in production code. May be professor will like this answer? :)
+I'm looking in the `xmmintrin.h`, but it does not contain `__FPU_SETCW` or any mention of `FPU` at all. Are you saying I have to add some lines?
+`char**` isn't a sequence of bytes, it's a pointer to a pointer to a `char`. Did you allocate any memory?
+well... where is the problem? what results *are* you getting?
+Are you looking for a C program that you can invoke from the command line and that sets the current directory? Or you want to set the current directory within the C program?
+@Caf, you are right. What was I thinking?
+And what about loops? Or do we have to loop with recursion?
+Does it include any code that is specific to Linux? Or does it use only C standard library and POSIX API?
+Taken alone, this code won't compile. What are definitions for `dimensions` and its cousin `dimention` (in desperate need of a better variable name)?
+This doesn't make sense.  Do you mean "introspection"?
+The answers to the referenced question include two completely different ways of using Robot. Which did you profile?

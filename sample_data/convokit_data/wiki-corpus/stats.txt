@@ -1,0 +1,2 @@
+speaker1 uttrs:195647
+speaker2 uttrs:195647

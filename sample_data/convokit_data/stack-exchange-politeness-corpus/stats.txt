@@ -1,0 +1,2 @@
+speaker1 uttrs:3302
+speaker2 uttrs:3301
